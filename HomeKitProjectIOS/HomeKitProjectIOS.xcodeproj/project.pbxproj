@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BDA0BF9FF6AB7EDC6AE5DEA /* Pods_HomeKitProjectIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E71C14BBB1E52B1C88AE5E2 /* Pods_HomeKitProjectIOS.framework */; };
+		83947673581F565EBBEAFD9A /* Pods_HomeKitProjectIOS_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E952455E283A054E6FF9F90 /* Pods_HomeKitProjectIOS_WatchKit_App.framework */; };
+		966B86B79E834650F6489358 /* Pods_HomeKitProjectIOS_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38619C9F65B659D62794AD5 /* Pods_HomeKitProjectIOS_WatchKit_Extension.framework */; };
 		EDDDD02A2185A7B400E4D063 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDDD0292185A7B400E4D063 /* AppDelegate.swift */; };
 		EDDDD02C2185A7B400E4D063 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDDD02B2185A7B400E4D063 /* ViewController.swift */; };
 		EDDDD02F2185A7B400E4D063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDDD02D2185A7B400E4D063 /* Main.storyboard */; };
@@ -65,6 +68,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0E952455E283A054E6FF9F90 /* Pods_HomeKitProjectIOS_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeKitProjectIOS_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E71C14BBB1E52B1C88AE5E2 /* Pods_HomeKitProjectIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeKitProjectIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4180C7DB6CB47713A7E22A /* Pods-HomeKitProjectIOS WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeKitProjectIOS WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomeKitProjectIOS WatchKit Extension/Pods-HomeKitProjectIOS WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		850E4A9BFCB8A3CBDE6DDD99 /* Pods-HomeKitProjectIOS WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeKitProjectIOS WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomeKitProjectIOS WatchKit App/Pods-HomeKitProjectIOS WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		A38619C9F65B659D62794AD5 /* Pods_HomeKitProjectIOS_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeKitProjectIOS_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF0207006F24CC421FC8F69 /* Pods-HomeKitProjectIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeKitProjectIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomeKitProjectIOS/Pods-HomeKitProjectIOS.release.xcconfig"; sourceTree = "<group>"; };
+		DD835FE3CAC9FBCD415753D8 /* Pods-HomeKitProjectIOS WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeKitProjectIOS WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomeKitProjectIOS WatchKit App/Pods-HomeKitProjectIOS WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 		EDDDD0262185A7B400E4D063 /* HomeKitProjectIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeKitProjectIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDDD0292185A7B400E4D063 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDDDD02B2185A7B400E4D063 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,13 +93,24 @@
 		EDDDD0522185A7B600E4D063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDDDD0542185A7B600E4D063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDDDD0552185A7B600E4D063 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		EDFD982DD4CF69F2F1AFC01C /* Pods-HomeKitProjectIOS WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeKitProjectIOS WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomeKitProjectIOS WatchKit Extension/Pods-HomeKitProjectIOS WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		FE57FA100410B9E1FC1DAAAC /* Pods-HomeKitProjectIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeKitProjectIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomeKitProjectIOS/Pods-HomeKitProjectIOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		895D29C01DCEDE4EF589491B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83947673581F565EBBEAFD9A /* Pods_HomeKitProjectIOS_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EDDDD0232185A7B400E4D063 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BDA0BF9FF6AB7EDC6AE5DEA /* Pods_HomeKitProjectIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,12 +118,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				966B86B79E834650F6489358 /* Pods_HomeKitProjectIOS_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D5777A67B1559FDEECD580C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE57FA100410B9E1FC1DAAAC /* Pods-HomeKitProjectIOS.debug.xcconfig */,
+				ABF0207006F24CC421FC8F69 /* Pods-HomeKitProjectIOS.release.xcconfig */,
+				850E4A9BFCB8A3CBDE6DDD99 /* Pods-HomeKitProjectIOS WatchKit App.debug.xcconfig */,
+				DD835FE3CAC9FBCD415753D8 /* Pods-HomeKitProjectIOS WatchKit App.release.xcconfig */,
+				EDFD982DD4CF69F2F1AFC01C /* Pods-HomeKitProjectIOS WatchKit Extension.debug.xcconfig */,
+				5B4180C7DB6CB47713A7E22A /* Pods-HomeKitProjectIOS WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3FF7324CA9F83178B147572F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E71C14BBB1E52B1C88AE5E2 /* Pods_HomeKitProjectIOS.framework */,
+				0E952455E283A054E6FF9F90 /* Pods_HomeKitProjectIOS_WatchKit_App.framework */,
+				A38619C9F65B659D62794AD5 /* Pods_HomeKitProjectIOS_WatchKit_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EDDDD01D2185A7B400E4D063 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +155,8 @@
 				EDDDD03C2185A7B500E4D063 /* HomeKitProjectIOS WatchKit App */,
 				EDDDD04B2185A7B500E4D063 /* HomeKitProjectIOS WatchKit Extension */,
 				EDDDD0272185A7B400E4D063 /* Products */,
+				0D5777A67B1559FDEECD580C /* Pods */,
+				3FF7324CA9F83178B147572F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,10 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDDDD0602185A7B600E4D063 /* Build configuration list for PBXNativeTarget "HomeKitProjectIOS" */;
 			buildPhases = (
+				5FEA4128C098803593C6023B /* [CP] Check Pods Manifest.lock */,
 				EDDDD0222185A7B400E4D063 /* Sources */,
 				EDDDD0232185A7B400E4D063 /* Frameworks */,
 				EDDDD0242185A7B400E4D063 /* Resources */,
 				EDDDD05F2185A7B600E4D063 /* Embed Watch Content */,
+				F7C4F4EEE3DE685F0B324540 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,8 +234,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDDDD05C2185A7B600E4D063 /* Build configuration list for PBXNativeTarget "HomeKitProjectIOS WatchKit App" */;
 			buildPhases = (
+				3C2E8E2BEB45BA024759A34E /* [CP] Check Pods Manifest.lock */,
 				EDDDD0362185A7B500E4D063 /* Resources */,
 				EDDDD05B2185A7B600E4D063 /* Embed App Extensions */,
+				895D29C01DCEDE4EF589491B /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDDDD0582185A7B600E4D063 /* Build configuration list for PBXNativeTarget "HomeKitProjectIOS WatchKit Extension" */;
 			buildPhases = (
+				44989F779456AE47FD352208 /* [CP] Check Pods Manifest.lock */,
 				EDDDD0432185A7B500E4D063 /* Sources */,
 				EDDDD0442185A7B500E4D063 /* Frameworks */,
 				EDDDD0452185A7B500E4D063 /* Resources */,
@@ -285,6 +337,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C2E8E2BEB45BA024759A34E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeKitProjectIOS WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44989F779456AE47FD352208 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeKitProjectIOS WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FEA4128C098803593C6023B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeKitProjectIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7C4F4EEE3DE685F0B324540 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HomeKitProjectIOS/Pods-HomeKitProjectIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomeKitProjectIOS/Pods-HomeKitProjectIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EDDDD0222185A7B400E4D063 /* Sources */ = {
@@ -465,6 +592,7 @@
 		};
 		EDDDD0592185A7B600E4D063 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDFD982DD4CF69F2F1AFC01C /* Pods-HomeKitProjectIOS WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -487,6 +615,7 @@
 		};
 		EDDDD05A2185A7B600E4D063 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B4180C7DB6CB47713A7E22A /* Pods-HomeKitProjectIOS WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +638,7 @@
 		};
 		EDDDD05D2185A7B600E4D063 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 850E4A9BFCB8A3CBDE6DDD99 /* Pods-HomeKitProjectIOS WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -528,6 +658,7 @@
 		};
 		EDDDD05E2185A7B600E4D063 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD835FE3CAC9FBCD415753D8 /* Pods-HomeKitProjectIOS WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -547,6 +678,7 @@
 		};
 		EDDDD0612185A7B600E4D063 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE57FA100410B9E1FC1DAAAC /* Pods-HomeKitProjectIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -565,6 +697,7 @@
 		};
 		EDDDD0622185A7B600E4D063 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABF0207006F24CC421FC8F69 /* Pods-HomeKitProjectIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
