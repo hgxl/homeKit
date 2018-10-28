@@ -41,5 +41,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSHomeKitUsageDescription</key>
+	<string>Control your life</string>
 </dict>
 </plist>

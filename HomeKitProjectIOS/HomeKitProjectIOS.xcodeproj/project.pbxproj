@@ -23,6 +23,7 @@
 		EDDDD04F2185A7B500E4D063 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDDD04E2185A7B500E4D063 /* ExtensionDelegate.swift */; };
 		EDDDD0512185A7B500E4D063 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDDD0502185A7B500E4D063 /* NotificationController.swift */; };
 		EDDDD0532185A7B600E4D063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDDD0522185A7B600E4D063 /* Assets.xcassets */; };
+		EDDDD0652185A88F00E4D063 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDDD0642185A88F00E4D063 /* HomeKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,8 @@
 		EDDDD0522185A7B600E4D063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDDDD0542185A7B600E4D063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDDDD0552185A7B600E4D063 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		EDDDD0632185A88F00E4D063 /* HomeKitProjectIOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HomeKitProjectIOS.entitlements; sourceTree = "<group>"; };
+		EDDDD0642185A88F00E4D063 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
 		EDFD982DD4CF69F2F1AFC01C /* Pods-HomeKitProjectIOS WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeKitProjectIOS WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomeKitProjectIOS WatchKit Extension/Pods-HomeKitProjectIOS WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		FE57FA100410B9E1FC1DAAAC /* Pods-HomeKitProjectIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeKitProjectIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomeKitProjectIOS/Pods-HomeKitProjectIOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDDDD0652185A88F00E4D063 /* HomeKit.framework in Frameworks */,
 				4BDA0BF9FF6AB7EDC6AE5DEA /* Pods_HomeKitProjectIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +145,7 @@
 		3FF7324CA9F83178B147572F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EDDDD0642185A88F00E4D063 /* HomeKit.framework */,
 				4E71C14BBB1E52B1C88AE5E2 /* Pods_HomeKitProjectIOS.framework */,
 				0E952455E283A054E6FF9F90 /* Pods_HomeKitProjectIOS_WatchKit_App.framework */,
 				A38619C9F65B659D62794AD5 /* Pods_HomeKitProjectIOS_WatchKit_Extension.framework */,
@@ -173,6 +178,7 @@
 		EDDDD0282185A7B400E4D063 /* HomeKitProjectIOS */ = {
 			isa = PBXGroup;
 			children = (
+				EDDDD0632185A88F00E4D063 /* HomeKitProjectIOS.entitlements */,
 				EDDDD0292185A7B400E4D063 /* AppDelegate.swift */,
 				EDDDD02B2185A7B400E4D063 /* ViewController.swift */,
 				EDDDD02D2185A7B400E4D063 /* Main.storyboard */,
@@ -279,6 +285,11 @@
 				TargetAttributes = {
 					EDDDD0252185A7B400E4D063 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+						};
 					};
 					EDDDD0372185A7B500E4D063 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -681,6 +692,7 @@
 			baseConfigurationReference = FE57FA100410B9E1FC1DAAAC /* Pods-HomeKitProjectIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HomeKitProjectIOS/HomeKitProjectIOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24MA665LVK;
 				INFOPLIST_FILE = HomeKitProjectIOS/Info.plist;
@@ -700,6 +712,7 @@
 			baseConfigurationReference = ABF0207006F24CC421FC8F69 /* Pods-HomeKitProjectIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HomeKitProjectIOS/HomeKitProjectIOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24MA665LVK;
 				INFOPLIST_FILE = HomeKitProjectIOS/Info.plist;
